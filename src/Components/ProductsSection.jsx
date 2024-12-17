@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 
@@ -56,6 +57,8 @@ const allProducts = [
   // { "id": 30, "name": "Dry Lemon", "image": "/turmeric.png", "category": "Dry Fruits" },
   { "id": 49, "name": "Pistachio", "image": "/pistachio.webp", "category": "Dry Fruits" },
   { "id": 50, "name": "Rasins", "image": "/raisins.webp", "category": "Dry Fruits" },
+  { "id": 51, "name": "Potato", "image": "/potato.jpg", "category": "Vegetables" },
+  { "id": 52, "name": "Dates", "image": "/dateKhazar.jpg", "category": "Dry Fruits" },
 
 ]
 
@@ -84,7 +87,7 @@ const ProductGrid = ({ data }) => {
         </h2>
 
         {/* Categories */}
-        <div className="flex justify-center mb-6 space-x-4">
+        <div className="flex flex-wrap gap-4 sm:gap-6 md:gap-8 justify-center mb-6 space-x-4">
           {categories.map((category) => (
             <button
               key={category}
