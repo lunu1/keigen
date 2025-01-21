@@ -7,6 +7,7 @@ import Homebg2 from "../assets/images/Homek3.jpg";
 import Homebg8 from "../assets/images/Homek8.jpg";
 import Homebg9 from "../assets/images/Homek9.jpg";
 import Homebg4 from "../assets/images/Homek9.jpg";
+import Homebg5 from "../assets/images/Homek10.jpg";
 
 import { useNavigate } from "react-router-dom";
 
@@ -83,6 +84,17 @@ const backgrounds = [
       <div className="text-black text-center space-y-2">
         <h1 className="text-3xl font-bold">Third-Party Sales</h1>
         <p>Leverage our third-party sales facility for convenient and hassle-free transactions.</p>
+      </div>
+    ),
+  },
+  {
+    image: Homebg5, // Replace with the appropriate image variable
+    component: (
+      <div className="text-black text-center space-y-2">
+        <h1 className="text-3xl font-bold">Reexporting Made Easy</h1>
+        <p>
+          Simplify your international trade with our reliable reexporting services. We ensure smooth logistics and documentation for your global business needs.
+        </p>
       </div>
     ),
   },

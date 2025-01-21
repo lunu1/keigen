@@ -58,7 +58,10 @@ const allProducts = [
   { "id": 49, "name": "Pistachio", "image": "/pistachio.webp", "category": "Dry Fruits" },
   { "id": 50, "name": "Rasins", "image": "/raisins.webp", "category": "Dry Fruits" },
   { "id": 51, "name": "Potato", "image": "/potato.jpg", "category": "Vegetables" },
-  { "id": 52, "name": "Dates", "image": "/dateKhazar.jpg", "category": "Dry Fruits" },
+  { "id": 52, "name": "Broccoli", "image": "/brocolli.jpg", "category": "Vegetables" },
+  { "id": 53, "name": "Dates", "image": "/dateKhazar.jpg", "category": "Dry Fruits" },
+  { "id": 54, "name": "Cauliflower", "image": "/Cauliflower.jpg", "category": "Vegetables" },
+  { "id": 55, "name": "Spinach", "image": "/Spinach.jpg", "category": "Vegetables" },
 
 ]
 
